@@ -1,0 +1,273 @@
+.container {
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:calc(100vh - 60px);
+}
+
+.col-md-1.col-md-offset-0 {
+    padding-right:0px;
+    padding-left:0px;
+    padding-bottom: 0px;
+}
+
+.row {
+    margin:0px;
+    height:100%;
+    width:100%;
+}
+
+#row {
+  margin:0px;
+  height:calc(~"100vh - 60px");
+  background-color:#f5f5f5;
+}
+
+.selectAllSVG {
+  width:23px;
+  height:23px;
+  margin-top:-2.5px;
+  margin-left:-2.5px;
+}
+
+.filterSVG {
+  width:35px;
+  height:35px;
+  margin-top:-3.5px;
+  margin-left:-3.5px;
+}
+
+
+
+.float_left {
+  float:left;
+  font-size:30px;
+  font-family:Lato, sans-serif;
+  margin-left:20px;
+  margin-top:-5px;
+}
+
+.text-right {
+  background-color:#2c3d51;
+  height:60px;
+  font-family:Lato, sans-serif;
+  color:#e4e4e4;
+  font-size:20px;
+  padding-right:20px;
+  padding-top:15px;
+  margin-bottom:0px;
+  min-width:max-content;
+}
+
+.normalPxFont {
+  font-size:24px;
+  font-family:Lato, sans-serif;
+  float:left;
+  margin-top:10px;
+}
+
+.resident {
+  height:60px;
+  background-color:rgba(187,222,251,0.2);
+  border-color:rgba(187,222,251,0.4);
+  border:1px solid #2c3d51;
+  width:100%;
+  padding-left:10px;
+}
+
+.imgSpan {
+  float:right;
+}
+
+.residentImg {
+  height:50px;
+  margin-top:3px;
+}
+
+#imgPerson {
+  height:200px;
+  margin-top:20px;
+}
+
+.personInfo {
+  margin-top:10px;
+  padding-left:5px;
+}
+
+.personInfoLine {
+  width:100%;
+}
+
+.imgBtn {
+    width: 100%;
+    margin-top: 28px;
+    height: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 0px;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    background-image: url(https://a17-webapps04.studev.groept.be/assets/css/0px);
+    background-color: rgba(212, 212, 212, 0);
+    font-weight: normal;
+    display: block;
+    padding: 7px;
+    text-align: center;
+}
+
+.pre-scrollable {
+  max-height:44%;
+  padding:0px;
+  padding-right:5px;
+}
+
+.leftCol {
+  border-right:1px solid #2c3d51;
+  height:calc(~"100vh - 60px");
+  padding:10px;
+}
+
+.searchBox {
+    float: right;
+    height: 40px;
+    width: 80.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+}
+.searchButton {
+  float:right;
+  height:40px;
+  margin-top:10px;
+  background-color:rgba(255,255,255,0);
+  background-image:url("0px");
+  border:none;
+}
+
+.buttonBar {
+  padding-top:20px;
+}
+
+.addImageBtn {
+  margin-top:10px;
+  font-size:24px;
+}
+
+#rightcol {
+    padding: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#addImageHere {
+  padding:0px;
+}
+
+.imgPlaceHolder {
+  height:190px;
+}
+
+#imageSpan {
+  width:100%;
+  text-align:center;
+  padding-top:25px;
+}
+
+#textArea {
+    margin-top: 5px;
+    height: 200px;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    margin-bottom: 20px;
+}
+
+#maxCharSpan {
+  float:right;
+  margin-top:25px;
+  font-size:18px;
+  font-family:Lato, sans-serif;
+}
+
+label {
+  height:60px;
+  display:block;
+  position:relative;
+  width:20px;
+  padding-left:35px;
+  cursor:pointer;
+  font-size:16px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  float: left;
+}
+
+label input {
+  position:absolute;
+  opacity:0;
+}
+
+.checkmark {
+  position:absolute;
+  top:0;
+  left:0;
+  margin-top:22px;
+  height:20px;
+  width:19.8px;
+  border-top:1.6px solid #2c3d51;
+  border-bottom:1.6px solid #2c3d51;
+  border-left:1.6px solid #2c3d51;
+  border-right:1.6px solid #2c3d51;
+  border-radius:4px;
+}
+
+.checkmark:after {
+  content:"";
+  position:absolute;
+  display:none;
+}
+
+label input:checked ~ .checkmark:after {
+  display:block;
+}
+
+label .checkmark:after {
+  left:5px;
+  top:1.8px;
+  width:6.6px;
+  height:11px;
+  border:solid #2c3d51;
+  border-width:0 2px 2px 0;
+  border-radius:1px;
+  -webkit-transform:rotate(40deg);
+  -ms-transform:rotate(40deg);
+  transform:rotate(40deg);
+}
+
+.checkmark.buttonlayer {
+  margin-left:15px;
+  margin-top:15px;
+}
+
+.line {
+  display:flex;
+  align-items:center;
+}
+
+.dashboardButton {
+  width:20px;
+  height:20px;
+  margin-top: 20px;
+  margin-left: 15px;
+  background:0px;
+  padding:0px;
+  border: none;
+  
+}
+
+
+
+
+
+

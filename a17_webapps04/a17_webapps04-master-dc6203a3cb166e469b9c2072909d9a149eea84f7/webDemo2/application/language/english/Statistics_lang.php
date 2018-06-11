@@ -1,0 +1,19 @@
+<?php
+$lang['stats_chooseSectors'] = "Choose sector to view their statistics";
+$lang['stats_allSectors'] = "All sectors";
+$lang['stats_stronglyDisagree'] = "Never";
+$lang['stats_disagree'] = "Rarely";
+$lang['stats_neutral'] = "Sometimes";
+$lang['stats_agree'] = "Often";
+$lang['stats_stronglyAgree'] = "Always";
+$lang['stats_noAnswer'] = "No answer";
+$lang['stats_chartTitle'] = "Distribution of answers per question";
+$lang['stats_chartX'] = "Answer distribution";
+$lang['stats_chartY'] = "Questions";
+$lang['stats_showChart'] = "Tap the chart-icon to show chart";
+$lang['stats_average'] = "Average";
+$lang['stats_noData'] = "No data available for this sector";
+$lang['stats_chooseDate'] = "Choose your timeframe:";
+$lang['stats_from'] = "From:";
+$lang['stats_till'] = "To:";
+$lang['stats_dateError'] = "Date 'from' is later than date 'to'";
